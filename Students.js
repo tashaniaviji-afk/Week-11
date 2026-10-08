@@ -64,7 +64,7 @@ const view = new StudentView();
 const controller = new StudentController(model, view);
 
 // Registering students through Controller
-controller.registerStudent("S001", "Lina", "ICT", 3.4);   // valid
+controller.registerStudent("S001", "Lubai", "ICT", 3.4);   // valid
 controller.registerStudent("S002", "John", "Business", 2.8); // valid
 controller.registerStudent("S003", "Maria", "Science", 3.9); // valid
 controller.registerStudent("S004", "Alex", "Arts", 4.5); // invalid GPA
